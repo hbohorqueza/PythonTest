@@ -36,3 +36,14 @@ seed(0)
 
 for i in range(5):
     print(random())
+
+
+## La función processor
+## La función processor() devuelve una cadena con el nombre real del procesador (si lo fuese posible)
+
+from platform import processor, machine, system, version
+
+print(processor())
+print(machine())
+print(system())
+print(version())
